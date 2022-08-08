@@ -7,8 +7,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     eslintPlugin(),
-    quasar({ sassVariables: 'src/quasar-variables.sass' }),
-    vue({ template: { transformAssetUrls } })
+    vue({ template: { transformAssetUrls } }),
+    quasar({ sassVariables: 'src/quasar-variables.sass' })
   ],
   resolve: {
     alias: {

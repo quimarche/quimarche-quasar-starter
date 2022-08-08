@@ -1,5 +1,5 @@
 <template>
-  <div>App</div>
+  <div class="q-ma-md text-primary">Running Quasar v{{ $q.version }}</div>
 </template>
 
 <script>

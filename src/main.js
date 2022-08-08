@@ -8,4 +8,4 @@ import 'quasar/src/css/index.sass'
 
 import App from '@/Components/App.vue'
 
-createApp(App).myApp.use(Quasar, { plugins: {} }).mount('#app')
+createApp(App).use(Quasar).mount('#app')
